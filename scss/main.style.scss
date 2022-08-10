@@ -1,0 +1,654 @@
+  $darkPink:#ED1965;
+  $lightPink:#FFE4D3;
+  $khakestry:#545454;
+  $lightkhakestary:#F8F8FA;
+  * {
+      margin: 0px;
+      padding: 0px;
+      text-decoration: none;
+      border: 0 none;
+      direction: rtl;
+  }
+  
+  body {
+      background-color: #ffffff;
+      font-family: Vazir-FD;
+  }
+  
+  header {
+      background-color: #ffffff;
+      overflow: hidden;
+      .center {
+          margin: 0px auto;
+          .top_bar_menu {
+              float: right;
+              .menu {
+                  float: right;
+                  ul {
+                      list-style: none;
+                      .menuu {
+                          float: right;
+                          h2 {
+                              color: $khakestry;
+                              font-weight: lighter;
+                              transition: 500ms;
+                          }
+                          &:hover h2 {
+                              transform: scale(1.1);
+                              color: $darkPink;
+                          }
+                      }
+                  }
+                  .up_in {
+                      list-style: none;
+                      .up {
+                          float: right;
+                          border-radius: 5px;
+                          transition: 500ms;
+                          h2 {
+                              color: $darkPink;
+                              font-size: 10pt;
+                          }
+                          &:hover {
+                              background-color: $darkPink;
+                              h2 {
+                                  color: $lightPink;
+                              }
+                          }
+                      }
+                  }
+              }
+              .search_box {
+                  float: right;
+                  overflow: hidden;
+                  border-radius: 10px;
+                  form {
+                      background-color: #ffffff;
+                      border-radius: 10px;
+                      #search {
+                          float: right;
+                          border-radius: 10px;
+                          &::placeholder {
+                              font-family: Vazir-FD;
+                              color: #8D8282;
+                          }
+                      }
+                      #search_sub {
+                          display: none;
+                      }
+                      label {
+                          display: block;
+                          float: left;
+                          border-radius: 10px 0 0 10px;
+                          background-image: url(../image/search.png);
+                          background-repeat: no-repeat;
+                      }
+                  }
+              }
+              .logo_box {
+                  float: left;
+                  overflow: hidden;
+                  .icon {
+                      display: block;
+                      background-image: url(../image/logo.png);
+                      float: left;
+                  }
+                  .re {
+                      color: $darkPink;
+                      font-weight: 620;
+                      font-family: Segoe UI;
+                      float: left;
+                  }
+                  .make {
+                      color: $khakestry;
+                      font-weight: 620;
+                      font-family: Segoe UI;
+                      float: left;
+                  }
+              }
+          }
+      }
+  }
+  
+  .slider {
+      overflow: hidden;
+      .center {
+          overflow: hidden;
+          .slider1 {
+              background-image: url(../image/slider1.png);
+              background-repeat: no-repeat;
+              overflow: hidden;
+              transition: 1484ms;
+              .text {
+                  float: left;
+                  h2 {
+                      color: $khakestry;
+                      text-align: center;
+                      border-bottom: 3px solid $darkPink;
+                      font-weight: bold;
+                  }
+                  p {
+                      color: $khakestry;
+                      text-align: center;
+                  }
+                  .buy {
+                      color: #ffffff;
+                      text-align: center;
+                      box-shadow: 0 0 11px 0 #ED1965;
+                      background-color: $darkPink;
+                      float: left;
+                      border-radius: 5px;
+                      transition: 500ms;
+                      cursor: pointer;
+                      h3 {
+                          font-family: Vazir-FD;
+                      }
+                      &:hover {
+                          box-shadow: 0 0 11px 0 #545454;
+                          background-color: $lightkhakestary;
+                          color: $khakestry;
+                          h2 {
+                              transform: scale(1.1);
+                          }
+                      }
+                  }
+                  .more {
+                      color: $darkPink;
+                      text-align: center;
+                      font-size: 13pt;
+                      float: left;
+                      cursor: pointer;
+                      transition: 500ms;
+                      &:hover {
+                          color: #545454;
+                      }
+                  }
+              }
+              .item {
+                  float: right;
+                  ul {
+                      list-style: none;
+                      overflow: hidden;
+                      float: right;
+                      li {
+                          float: right;
+                          a {
+                              display: block;
+                              background-color: #c5c0c2;
+                              border-radius: 11px;
+                              float: right;
+                          }
+                          .active {
+                              background-color: #807579;
+                          }
+                      }
+                  }
+              }
+          }
+      }
+  }
+  
+  .product {
+      overflow: hidden;
+      .center {
+          background-color: #F8F8FA;
+          overflow: hidden;
+          .product_box {
+              .header_product {
+                  background-color: #ffffff;
+                  border-radius: 10px;
+                  box-shadow: 0 0 11px 0 #cacaca;
+                  overflow: hidden;
+                  .right {
+                      float: right;
+                      background-image: url(../image/bigpackage.png);
+                      background-repeat: no-repeat;
+                      .icon {
+                          float: right;
+                          background-image: url(../image/package.png);
+                          background-repeat: no-repeat;
+                      }
+                      .text {
+                          float: right;
+                          h2 {
+                              color: $khakestry;
+                          }
+                          h3 {
+                              color: $darkPink;
+                          }
+                      }
+                  }
+                  span {
+                      color: $darkPink;
+                      float: left;
+                      transition: 500ms;
+                      &:hover {
+                          transform: scale(1.1);
+                      }
+                  }
+              }
+              .product1 {
+                  overflow: hidden;
+                  ul {
+                      list-style: none;
+                      li {
+                          float: right;
+                          box-shadow: 0 0 11px 0 #cacaca;
+                          border-radius: 9px;
+                          background-color: #ffffff;
+                          transition: 500ms;
+                          .img {
+                              position: relative;
+                              .hover_box {
+                                  overflow: hidden;
+                                  background-color: #f8bad177;
+                                  position: absolute;
+                                  transition: 500ms;
+                                  .childIcon {
+                                      display: block;
+                                      float: right;
+                                      .more {
+                                          display: block;
+                                          background-image: url(../image/more.png);
+                                          transition: 500ms;
+                                          &:hover {
+                                              background-image: url(../image/more-hover.png);
+                                              transform: scale(1.1);
+                                          }
+                                      }
+                                      .buy {
+                                          display: block;
+                                          background-image: url(../image/addbag.png);
+                                          transition: 500ms;
+                                          &:hover {
+                                              background-image: url(../image/addbag-hover.png);
+                                              transform: scale(1.1);
+                                          }
+                                      }
+                                      .like {
+                                          display: block;
+                                          background-image: url(../image/likee.png);
+                                          transition: 500ms;
+                                          &:hover {
+                                              background-image: url(../image/like-hover.png);
+                                              transform: scale(1.1);
+                                          }
+                                      }
+                                      i {
+                                          transition: 500ms;
+                                      }
+                                  }
+                              }
+                          }
+                          .text {
+                              color: $khakestry;
+                              text-align: center;
+                              transition: 500ms;
+                              font-family: Vazir-FD;
+                              h2 {
+                                  transition: 500ms;
+                              }
+                              &:hover {
+                                  color: #ED1965;
+                                  h2 {
+                                      transform: scale(1.1);
+                                  }
+                              }
+                          }
+                          p {
+                              text-align: center;
+                              .price {
+                                  color: $darkPink;
+                                  font-weight: bold;
+                              }
+                              .disprice {
+                                  text-decoration: line-through;
+                              }
+                          }
+                          .add {
+                              background-color: $darkPink;
+                              border-radius: 5px;
+                              text-align: center;
+                              display: block;
+                              color: #ffffff;
+                              float: right;
+                              transition: 500ms;
+                              &:hover {
+                                  background-color: #f397b9;
+                                  color: #ED1965;
+                              }
+                          }
+                          .like {
+                              float: right;
+                              .icon {
+                                  display: block;
+                                  background-image: url(../image/like.png);
+                                  transition: 500ms;
+                                  &:hover {
+                                      background-image: url(../image/like-hover.png);
+                                      transform: scale(1.1);
+                                  }
+                              }
+                          }
+                          &:hover {
+                              //  border: 1px solid $darkPink;
+                              box-shadow: 0 0 11px 0 #ED1965;
+                          }
+                      }
+                  }
+              }
+          }
+      }
+  }
+  
+  .pr {
+      overflow: hidden;
+      .center {
+          background-color: #ffffff;
+          overflow: hidden;
+          .pr_box {
+              .header_pr {
+                  background-color: #ffffff;
+                  border-radius: 10px;
+                  box-shadow: 0 0 11px 0 #cacaca;
+                  overflow: hidden;
+                  .right {
+                      float: right;
+                      .icon {
+                          float: right;
+                          background-image: url(../image/myproduct.png);
+                          background-repeat: no-repeat;
+                      }
+                      .text {
+                          float: right;
+                          h2 {
+                              color: $khakestry;
+                          }
+                          h3 {
+                              color: $darkPink;
+                          }
+                      }
+                  }
+                  span {
+                      color: $darkPink;
+                      float: left;
+                      transition: 500ms;
+                      &:hover {
+                          transform: scale(1.1);
+                      }
+                  }
+              }
+              .slider {
+                  overflow: hidden;
+                  position: relative;
+                  &:hover .next {
+                      display: inline;
+                  }
+                  &:hover .prev {
+                      display: inline;
+                  }
+                  .next {
+                      position: absolute;
+                      background-color: #ffffffb0;
+                      overflow: hidden;
+                      z-index: 9999999;
+                      box-shadow: 0 0 5px 0 #5f5f5f;
+                      cursor: pointer;
+                      display: none;
+                      border-radius: 5px;
+                      transition: 500ms;
+                      &:hover {
+                          box-shadow: 0 0 5px 0 #f35a8d;
+                      }
+                      .icon {
+                          display: block;
+                          background-image: url(../image/btn3.png);
+                          transition: 500ms;
+                          &:hover {
+                              background-image: url(../image/btn3-hover.png);
+                          }
+                      }
+                  }
+                  .prev {
+                      position: absolute;
+                      background-color: #ffffffb0;
+                      overflow: hidden;
+                      box-shadow: 0 0 5px 0 #5f5f5f;
+                      z-index: 9999999;
+                      display: none;
+                      border-radius: 5px;
+                      cursor: pointer;
+                      transition: 500ms;
+                      &:hover {
+                          box-shadow: 0 0 5px 0 #f35a8d;
+                      }
+                      .icon {
+                          display: block;
+                          background-image: url(../image/btn4.png);
+                          transition: 500ms;
+                          &:hover {
+                              background-image: url(../image/btn4-hover.png);
+                          }
+                      }
+                  }
+                  ul {
+                      list-style: none;
+                      li {
+                          float: right;
+                          box-shadow: 0 0 11px 0 #cacaca;
+                          border-radius: 9px;
+                          background-color: #F8F8FA;
+                          transition: 500ms;
+                          .img {
+                              position: relative;
+                              overflow: hidden;
+                              .hover_box {
+                                  overflow: hidden;
+                                  background-color: #f8bad177;
+                                  position: absolute;
+                                  transition: 500ms;
+                                  .childIcon {
+                                      display: block;
+                                      float: right;
+                                      .more {
+                                          display: block;
+                                          background-image: url(../image/more.png);
+                                          transition: 500ms;
+                                          &:hover {
+                                              background-image: url(../image/more-hover.png);
+                                              transform: scale(1.1);
+                                          }
+                                      }
+                                      .buy {
+                                          display: block;
+                                          background-image: url(../image/addbag.png);
+                                          transition: 500ms;
+                                          &:hover {
+                                              background-image: url(../image/addbag-hover.png);
+                                              transform: scale(1.1);
+                                          }
+                                      }
+                                      .like {
+                                          display: block;
+                                          background-image: url(../image/likee.png);
+                                          transition: 500ms;
+                                          &:hover {
+                                              background-image: url(../image/like-hover.png);
+                                              transform: scale(1.1);
+                                          }
+                                      }
+                                      i {
+                                          transition: 500ms;
+                                      }
+                                  }
+                              }
+                          }
+                          .text {
+                              color: $khakestry;
+                              text-align: center;
+                              transition: 500ms;
+                              font-family: Vazir-FD;
+                              h2 {
+                                  transition: 500ms;
+                              }
+                              &:hover {
+                                  color: #ED1965;
+                                  h2 {
+                                      transform: scale(1.1);
+                                  }
+                              }
+                          }
+                          .more {
+                              display: block;
+                              float: right;
+                              .icon {
+                                  display: block;
+                                  background-image: url(../image/moore.png);
+                                  transition: 500ms;
+                                  &:hover {
+                                      background-image: url(../image/moore-hover.png);
+                                  }
+                              }
+                          }
+                          .likee {
+                              float: right;
+                              display: block;
+                              .icon {
+                                  display: block;
+                                  background-image: url(../image/like.png);
+                                  transition: 500ms;
+                                  &:hover {
+                                      background-image: url(../image/like-hover.png);
+                                      transform: scale(1.1);
+                                  }
+                              }
+                          }
+                          &:hover {
+                              box-shadow: 0 0 11px 0 #f3548e;
+                          }
+                      }
+                  }
+              }
+          }
+      }
+  }
+  
+  .support {
+      overflow: hidden;
+      .center {
+          background-color: #F8F8FA;
+          overflow: hidden;
+          .support_box {
+              ul {
+                  list-style: none;
+                  li {
+                      background-color: #F8F8FA;
+                      box-shadow: 0 0 5px 0 #c2c2c2;
+                      float: right;
+                      border-radius: 12px;
+                      transition: 500ms;
+                      .delivery {
+                          transition: 500ms;
+                          &:hover {
+                              transform: rotate(360deg);
+                          }
+                      }
+                      .supportIcon {
+                          transition: 500ms;
+                          &:hover {
+                              transform: rotate(360deg);
+                          }
+                      }
+                      .credit {
+                          transition: 500ms;
+                          &:hover {
+                              transform: rotate(360deg);
+                          }
+                      }
+                      h2 {
+                          color: #545454;
+                          font-weight: bold;
+                          text-align: center;
+                      }
+                      h3 {
+                          color: #545454;
+                          font-weight: lighter;
+                          text-align: center;
+                      }
+                      &:hover {
+                          background-color: #ffffff;
+                      }
+                  }
+              }
+          }
+      }
+  }
+  
+  .brand {
+      overflow: hidden;
+      .center {
+          width: 1024px;
+          height: 246px;
+          background-color: #ffffff;
+          overflow: hidden;
+          .brand_box {
+              h2 {
+                  font-family: Yekan;
+                  color: #ED1965;
+                  font-weight: bold;
+              }
+              ul {
+                  list-style: none;
+                  li {
+                      float: right;
+                      box-shadow: 0 0 5px 0 #fa6fc5;
+                      transition: 500ms;
+                      &:hover {
+                          transform: scale(1.1);
+                      }
+                  }
+              }
+          }
+      }
+  }
+  
+  .footer {
+      overflow: hidden;
+      .center {
+          background-color: #545454;
+          overflow: hidden;
+          ul {
+              list-style: none;
+              li {
+                  float: right;
+              }
+              .footer1 {
+                  .box1 {
+                      .icon {
+                          float: right;
+                          display: block;
+                          background-image: url(../image/phone-call.png);
+                      }
+                      p {
+                          float: right;
+                          text-align: center;
+                          color: #F8F8FA;
+                      }
+                  }
+              }
+              .footer2 {
+                  p {
+                      color: #F8F8FA;
+                  }
+              }
+              .footer3 {
+                  p {
+                      color: #F8F8FA;
+                  }
+                  img {
+                      float: right;
+                  }
+              }
+          }
+      }
+  }

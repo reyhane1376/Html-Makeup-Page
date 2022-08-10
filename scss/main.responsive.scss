@@ -1,0 +1,1654 @@
+$darkPink:#ED1965;
+$lightPink:#FFE4D3;
+$khakestry:#545454;
+$lightkhakestary:#F8F8FA;
+@media(min-width:1024px) {
+    header {
+        width: 100%;
+        height: 80px;
+        border-bottom: 1px solid #d8d6d6;
+        .center {
+            width: 1024px;
+            height: 80px;
+            margin: 0px auto;
+            .top_bar_menu {
+                width: 1024px;
+                height: 79px;
+                .menu {
+                    width: 400px;
+                    height: 40px;
+                    margin: 20px 0;
+                    padding-right: 5px;
+                    ul {
+                        .menuu {
+                            font-size: 8pt;
+                            margin-right: 12px;
+                            padding: 5px 0;
+                            &:hover h2 {
+                                border-bottom: 1px solid $darkPink;
+                            }
+                        }
+                    }
+                    .up_in {
+                        .up {
+                            font-size: 8pt;
+                            margin: 5px 30px 0 0;
+                            border: 1px solid $darkPink;
+                            h2 {
+                                font-size: 10pt;
+                                padding: 5px;
+                            }
+                        }
+                    }
+                }
+                .search_box {
+                    width: 400px;
+                    height: 40px;
+                    margin: 20px 0;
+                    form {
+                        width: 350px;
+                        height: 30px;
+                        border: 1px solid #707070;
+                        #search {
+                            width: 308px;
+                            height: 30px;
+                            padding-right: 10px;
+                            &::placeholder {
+                                font-size: 10pt;
+                            }
+                        }
+                        label {
+                            width: 41px;
+                            height: 30px;
+                            border-right: 1px solid #707070;
+                        }
+                    }
+                }
+                .logo_box {
+                    width: 214px;
+                    height: 79px;
+                    margin: 20px 0;
+                    padding-left: 5px;
+                    .icon {
+                        width: 32px;
+                        height: 39px;
+                        margin-right: 5px;
+                    }
+                    .re {
+                        font-size: 19pt;
+                    }
+                    .make {
+                        font-size: 19pt;
+                    }
+                }
+            }
+        }
+    }
+    .slider {
+        width: 100%;
+        height: 500px;
+        .center {
+            width: 1024px;
+            height: 500px;
+            margin: 0px auto;
+            .slider1 {
+                width: 1024px;
+                height: 500px;
+                .text {
+                    margin: 50px 0 0 80px;
+                    width: 400px;
+                    height: 350px;
+                    h2 {
+                        width: 360px;
+                        height: 53px;
+                        border-bottom: 3px solid $darkPink;
+                        font-size: 22pt;
+                    }
+                    p {
+                        width: 360px;
+                        min-height: 100px;
+                        margin-top: 20px;
+                        font-size: 16pt;
+                    }
+                    .buy {
+                        font-size: 16pt;
+                        padding: 0 5px 0 0;
+                        width: 130px;
+                        height: 40px;
+                        margin: 90px 0 0 60px;
+                        h3 {
+                            margin-top: 5px;
+                            font-size: 14pt;
+                        }
+                    }
+                    .more {
+                        font-size: 13pt;
+                        margin: 93px 0 0 60px;
+                    }
+                }
+                .item {
+                    margin: 470px 441px 0 0;
+                    ul {
+                        width: 102px;
+                        height: 22px;
+                        li {
+                            width: 20px;
+                            height: 20px;
+                            margin-right: 20px;
+                            a {
+                                width: 20px;
+                                height: 20px;
+                                border: 1px solid #545454;
+                            }
+                            &:first-child {
+                                margin-right: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .product {
+        width: 100%;
+        height: 390px;
+        .center {
+            width: 1024px;
+            height: 390px;
+            margin: 0 auto;
+            .product_box {
+                width: 1024px;
+                height: 390px;
+                margin-top: 20px;
+                .header_product {
+                    width: 870px;
+                    height: 54px;
+                    margin: 0px 77px 0 77px;
+                    .right {
+                        height: 54px;
+                        .icon {
+                            width: 43px;
+                            height: 43px;
+                            margin: 4px 10px 0 0;
+                        }
+                        .text {
+                            h2 {
+                                font-size: 11pt;
+                            }
+                            h3 {
+                                font-size: 11pt;
+                            }
+                        }
+                    }
+                    span {
+                        margin: 13px 30px;
+                    }
+                }
+                .product1 {
+                    width: 870px;
+                    height: 336px;
+                    margin: 20px 77px 0 77px;
+                    ul {
+                        width: 870px;
+                        height: 296px;
+                        li {
+                            float: right;
+                            width: 180px;
+                            height: 260px;
+                            margin: 10px 43px 0 0;
+                            &:first-child {
+                                margin-right: 10px;
+                            }
+                            .img {
+                                width: 150px;
+                                height: 150px;
+                                margin: 15px;
+                                &:hover .hover_box {
+                                    width: 150px;
+                                    height: 150px;
+                                    top: 0;
+                                    right: 0;
+                                }
+                                .hover_box {
+                                    width: 0;
+                                    height: 0;
+                                    top: 75px;
+                                    right: 75px;
+                                    .childIcon {
+                                        width: 20px;
+                                        height: 20px;
+                                        margin: 65px 0px 0 0;
+                                        .more {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                        .buy {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                        .like {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                        i {
+                                            margin-right: 10px;
+                                            &:first-child {
+                                                margin-right: 0;
+                                            }
+                                        }
+                                    }
+                                    .childIcon1 {
+                                        margin-right: 40px;
+                                    }
+                                }
+                            }
+                            .text {
+                                font-size: 8pt;
+                            }
+                            p {
+                                width: 150px;
+                                .price {
+                                    font-size: 12pt;
+                                }
+                                .disprice {
+                                    font-size: 9pt;
+                                }
+                            }
+                            .add {
+                                width: 80px;
+                                height: 20px;
+                                margin: 0 15px;
+                                font-size: 10pt;
+                            }
+                            .like {
+                                .icon {
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .pr {
+        width: 100%;
+        height: 410px;
+        .center {
+            width: 1024px;
+            height: 410px;
+            margin: 0 auto;
+            .pr_box {
+                width: 1024px;
+                height: 410px;
+                margin-top: 20px;
+                .header_pr {
+                    width: 870px;
+                    height: 54px;
+                    margin: 0px 77px 0 77px;
+                    .right {
+                        height: 54px;
+                        .icon {
+                            width: 47px;
+                            height: 47px;
+                            margin: 4px 20px 0 0;
+                        }
+                        .text {
+                            margin: 5px 10px 0 0;
+                            h2 {
+                                font-size: 11pt;
+                            }
+                            h3 {
+                                font-size: 11pt;
+                            }
+                        }
+                    }
+                    span {
+                        margin: 13px 30px;
+                    }
+                }
+                .slider {
+                    width: 870px;
+                    height: 356px;
+                    margin: 0px 77px 0 77px;
+                    .next {
+                        width: 30px;
+                        height: 80px;
+                        top: 138px;
+                        right: 10px;
+                        .icon {
+                            width: 14px;
+                            height: 23px;
+                            margin: 28.5px 8px;
+                        }
+                    }
+                    .prev {
+                        width: 30px;
+                        height: 80px;
+                        top: 138px;
+                        left: 10px;
+                        .icon {
+                            width: 14px;
+                            height: 23px;
+                            margin: 28.5px 8px;
+                        }
+                    }
+                    ul {
+                        width: 870px;
+                        height: 356px;
+                        margin-top: 20px;
+                        li {
+                            width: 180px;
+                            height: 290px;
+                            margin: 10px 43px 0 0;
+                            &:first-child {
+                                margin-right: 10px;
+                            }
+                            .img {
+                                width: 150px;
+                                height: 195px;
+                                margin: 15px;
+                                &:hover .hover_box {
+                                    top: 0;
+                                    right: 0;
+                                }
+                                .hover_box {
+                                    width: 150px;
+                                    height: 195px;
+                                    top: 195px;
+                                    right: 150px;
+                                    .childIcon {
+                                        width: 20px;
+                                        height: 20px;
+                                        margin: 87px 0px 0 0;
+                                        .more {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                        .buy {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                        .like {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                        i {
+                                            margin-right: 10px;
+                                            &:first-child {
+                                                margin-right: 0;
+                                            }
+                                        }
+                                    }
+                                    .childIcon1 {
+                                        margin-right: 40px;
+                                    }
+                                }
+                            }
+                            .text {
+                                font-size: 7pt;
+                            }
+                            .more {
+                                width: 30px;
+                                height: 30px;
+                                margin-right: 60px;
+                                .icon {
+                                    width: 30px;
+                                    height: 30px;
+                                }
+                            }
+                            .likee {
+                                width: 20px;
+                                height: 20px;
+                                margin-top: 5px;
+                                .icon {
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .support {
+        width: 100%;
+        height: 260px;
+        margin-top: 20px;
+        .center {
+            width: 1024px;
+            height: 260px;
+            margin: 0 auto;
+            .support_box {
+                width: 1024px;
+                height: 207px;
+                margin-top: 20px;
+                ul {
+                    width: 1024px;
+                    height: 207px;
+                    li {
+                        width: 247px;
+                        height: 197px;
+                        margin-right: 100px;
+                        &:first-child {
+                            margin-right: 41.5px;
+                        }
+                        .delivery {
+                            width: 79px;
+                            height: 79px;
+                            margin: 5px 20px 0 0;
+                        }
+                        .supportIcon {
+                            width: 78px;
+                            height: 78px;
+                            margin: 5px 20px 0 0;
+                        }
+                        .credit {
+                            width: 71px;
+                            height: 71px;
+                            margin: 5px 20px 0 0;
+                        }
+                        h2 {
+                            font-size: 13pt;
+                        }
+                        h3 {
+                            margin-top: 10px;
+                            font-size: 12pt;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .brand {
+        width: 100%;
+        height: 246px;
+        margin-top: 20px;
+        .center {
+            width: 1024px;
+            height: 246px;
+            margin: 0 auto;
+            .brand_box {
+                width: 1024px;
+                height: 145px;
+                margin-top: 20px;
+                h2 {
+                    font-size: 25pt;
+                    margin-right: 120px;
+                    margin-bottom: 20px;
+                }
+                ul {
+                    width: 1024px;
+                    height: 145px;
+                    li {
+                        width: 172px;
+                        height: 65px;
+                        margin-right: 20px;
+                        &:first-child {
+                            margin-right: 142px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer {
+        width: 100%;
+        height: 194px;
+        margin-top: 20px;
+        .center {
+            width: 1024px;
+            height: 194px;
+            margin: 0 auto;
+            ul {
+                width: 1024px;
+                height: 194px;
+                .footer1 {
+                    width: 428px;
+                    height: 128px;
+                    border-left: 1px solid #F8F8FA;
+                    margin-top: 33px;
+                    .box1 {
+                        margin: 20px 20px 0 0;
+                        .icon {
+                            width: 52px;
+                            height: 52px;
+                        }
+                        p {
+                            width: 316px;
+                            margin-left: 20px;
+                            font-size: 10pt;
+                        }
+                    }
+                }
+                .footer2 {
+                    width: 297px;
+                    height: 128px;
+                    border-left: 1px solid #F8F8FA;
+                    margin-top: 33px;
+                    p {
+                        margin-right: 10px;
+                        font-size: 10pt;
+                    }
+                }
+                .footer3 {
+                    width: 296px;
+                    height: 128px;
+                    margin-top: 33px;
+                    p {
+                        margin: 10px 10px;
+                        font-size: 10pt;
+                    }
+                    img {
+                        width: 93px;
+                        height: 29px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:1024px) {
+    header {
+        width: 100%;
+        height: 80px;
+        border-bottom: 1px solid #d8d6d6;
+        .center {
+            width: 1024px;
+            height: 80px;
+            margin: 0px auto;
+            .top_bar_menu {
+                width: 1024px;
+                height: 79px;
+                .menu {
+                    width: 400px;
+                    height: 40px;
+                    margin: 20px 0;
+                    padding-right: 5px;
+                    ul {
+                        .menuu {
+                            font-size: 8pt;
+                            margin-right: 12px;
+                            padding: 5px 0;
+                            &:hover h2 {
+                                border-bottom: 1px solid $darkPink;
+                            }
+                        }
+                    }
+                    .up_in {
+                        .up {
+                            font-size: 8pt;
+                            margin: 5px 30px 0 0;
+                            border: 1px solid $darkPink;
+                            h2 {
+                                font-size: 10pt;
+                                padding: 5px;
+                            }
+                        }
+                    }
+                }
+                .search_box {
+                    width: 400px;
+                    height: 40px;
+                    margin: 20px 0;
+                    form {
+                        width: 350px;
+                        height: 30px;
+                        border: 1px solid #707070;
+                        #search {
+                            width: 308px;
+                            height: 30px;
+                            padding-right: 10px;
+                            &::placeholder {
+                                font-size: 10pt;
+                            }
+                        }
+                        label {
+                            width: 41px;
+                            height: 30px;
+                            border-right: 1px solid #707070;
+                        }
+                    }
+                }
+                .logo_box {
+                    width: 214px;
+                    height: 79px;
+                    margin: 20px 0;
+                    padding-left: 5px;
+                    .icon {
+                        width: 32px;
+                        height: 39px;
+                        margin-right: 5px;
+                    }
+                    .re {
+                        font-size: 19pt;
+                    }
+                    .make {
+                        font-size: 19pt;
+                    }
+                }
+            }
+        }
+    }
+    .slider {
+        width: 100%;
+        height: 500px;
+        .center {
+            width: 1024px;
+            height: 500px;
+            margin: 0px auto;
+            .slider1 {
+                width: 1024px;
+                height: 500px;
+                .text {
+                    margin: 50px 0 0 80px;
+                    width: 400px;
+                    height: 350px;
+                    h2 {
+                        width: 360px;
+                        height: 53px;
+                        border-bottom: 3px solid $darkPink;
+                        font-size: 22pt;
+                    }
+                    p {
+                        width: 360px;
+                        min-height: 100px;
+                        margin-top: 20px;
+                        font-size: 16pt;
+                    }
+                    .buy {
+                        font-size: 16pt;
+                        padding: 0 5px 0 0;
+                        width: 130px;
+                        height: 40px;
+                        margin: 90px 0 0 60px;
+                        h3 {
+                            margin-top: 5px;
+                            font-size: 14pt;
+                        }
+                    }
+                    .more {
+                        font-size: 13pt;
+                        margin: 93px 0 0 60px;
+                    }
+                }
+                .item {
+                    margin: 470px 441px 0 0;
+                    ul {
+                        width: 102px;
+                        height: 22px;
+                        li {
+                            width: 20px;
+                            height: 20px;
+                            margin-right: 20px;
+                            a {
+                                width: 20px;
+                                height: 20px;
+                                border: 1px solid #545454;
+                            }
+                            &:first-child {
+                                margin-right: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .product {
+        width: 100%;
+        height: 390px;
+        .center {
+            width: 1024px;
+            height: 390px;
+            margin: 0 auto;
+            .product_box {
+                width: 1024px;
+                height: 390px;
+                margin-top: 20px;
+                .header_product {
+                    width: 870px;
+                    height: 54px;
+                    margin: 0px 77px 0 77px;
+                    .right {
+                        height: 54px;
+                        .icon {
+                            width: 43px;
+                            height: 43px;
+                            margin: 4px 10px 0 0;
+                        }
+                        .text {
+                            h2 {
+                                font-size: 11pt;
+                            }
+                            h3 {
+                                font-size: 11pt;
+                            }
+                        }
+                    }
+                    span {
+                        margin: 13px 30px;
+                    }
+                }
+                .product1 {
+                    width: 870px;
+                    height: 336px;
+                    margin: 20px 77px 0 77px;
+                    ul {
+                        width: 870px;
+                        height: 296px;
+                        li {
+                            float: right;
+                            width: 180px;
+                            height: 260px;
+                            margin: 10px 43px 0 0;
+                            &:first-child {
+                                margin-right: 10px;
+                            }
+                            .img {
+                                width: 150px;
+                                height: 150px;
+                                margin: 15px;
+                                &:hover .hover_box {
+                                    width: 150px;
+                                    height: 150px;
+                                    top: 0;
+                                    right: 0;
+                                }
+                                .hover_box {
+                                    width: 0;
+                                    height: 0;
+                                    top: 75px;
+                                    right: 75px;
+                                    .childIcon {
+                                        width: 20px;
+                                        height: 20px;
+                                        margin: 65px 0px 0 0;
+                                        .more {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                        .buy {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                        .like {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                        i {
+                                            margin-right: 10px;
+                                            &:first-child {
+                                                margin-right: 0;
+                                            }
+                                        }
+                                    }
+                                    .childIcon1 {
+                                        margin-right: 40px;
+                                    }
+                                }
+                            }
+                            .text {
+                                font-size: 8pt;
+                            }
+                            p {
+                                width: 150px;
+                                .price {
+                                    font-size: 12pt;
+                                }
+                                .disprice {
+                                    font-size: 9pt;
+                                }
+                            }
+                            .add {
+                                width: 80px;
+                                height: 20px;
+                                margin: 0 15px;
+                                font-size: 10pt;
+                            }
+                            .like {
+                                .icon {
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .pr {
+        width: 100%;
+        height: 410px;
+        .center {
+            width: 1024px;
+            height: 410px;
+            margin: 0 auto;
+            .pr_box {
+                width: 1024px;
+                height: 410px;
+                margin-top: 20px;
+                .header_pr {
+                    width: 870px;
+                    height: 54px;
+                    margin: 0px 77px 0 77px;
+                    .right {
+                        height: 54px;
+                        .icon {
+                            width: 47px;
+                            height: 47px;
+                            margin: 4px 20px 0 0;
+                        }
+                        .text {
+                            margin: 5px 10px 0 0;
+                            h2 {
+                                font-size: 11pt;
+                            }
+                            h3 {
+                                font-size: 11pt;
+                            }
+                        }
+                    }
+                    span {
+                        margin: 13px 30px;
+                    }
+                }
+                .slider {
+                    width: 870px;
+                    height: 356px;
+                    margin: 0px 77px 0 77px;
+                    .next {
+                        width: 30px;
+                        height: 80px;
+                        top: 138px;
+                        right: 10px;
+                        .icon {
+                            width: 14px;
+                            height: 23px;
+                            margin: 28.5px 8px;
+                        }
+                    }
+                    .prev {
+                        width: 30px;
+                        height: 80px;
+                        top: 138px;
+                        left: 10px;
+                        .icon {
+                            width: 14px;
+                            height: 23px;
+                            margin: 28.5px 8px;
+                        }
+                    }
+                    ul {
+                        width: 870px;
+                        height: 356px;
+                        margin-top: 20px;
+                        li {
+                            width: 180px;
+                            height: 290px;
+                            margin: 10px 43px 0 0;
+                            &:first-child {
+                                margin-right: 10px;
+                            }
+                            .img {
+                                width: 150px;
+                                height: 195px;
+                                margin: 15px;
+                                &:hover .hover_box {
+                                    top: 0;
+                                    right: 0;
+                                }
+                                .hover_box {
+                                    width: 150px;
+                                    height: 195px;
+                                    top: 195px;
+                                    right: 150px;
+                                    .childIcon {
+                                        width: 20px;
+                                        height: 20px;
+                                        margin: 87px 0px 0 0;
+                                        .more {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                        .buy {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                        .like {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                        i {
+                                            margin-right: 10px;
+                                            &:first-child {
+                                                margin-right: 0;
+                                            }
+                                        }
+                                    }
+                                    .childIcon1 {
+                                        margin-right: 40px;
+                                    }
+                                }
+                            }
+                            .text {
+                                font-size: 7pt;
+                            }
+                            .more {
+                                width: 30px;
+                                height: 30px;
+                                margin-right: 60px;
+                                .icon {
+                                    width: 30px;
+                                    height: 30px;
+                                }
+                            }
+                            .likee {
+                                width: 20px;
+                                height: 20px;
+                                margin-top: 5px;
+                                .icon {
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .support {
+        width: 100%;
+        height: 260px;
+        margin-top: 20px;
+        .center {
+            width: 1024px;
+            height: 260px;
+            margin: 0 auto;
+            .support_box {
+                width: 1024px;
+                height: 207px;
+                margin-top: 20px;
+                ul {
+                    width: 1024px;
+                    height: 207px;
+                    li {
+                        width: 247px;
+                        height: 197px;
+                        margin-right: 100px;
+                        &:first-child {
+                            margin-right: 41.5px;
+                        }
+                        .delivery {
+                            width: 79px;
+                            height: 79px;
+                            margin: 5px 20px 0 0;
+                        }
+                        .supportIcon {
+                            width: 78px;
+                            height: 78px;
+                            margin: 5px 20px 0 0;
+                        }
+                        .credit {
+                            width: 71px;
+                            height: 71px;
+                            margin: 5px 20px 0 0;
+                        }
+                        h2 {
+                            font-size: 13pt;
+                        }
+                        h3 {
+                            margin-top: 10px;
+                            font-size: 12pt;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .brand {
+        width: 100%;
+        height: 246px;
+        margin-top: 20px;
+        .center {
+            width: 1024px;
+            height: 246px;
+            margin: 0 auto;
+            .brand_box {
+                width: 1024px;
+                height: 145px;
+                margin-top: 20px;
+                h2 {
+                    font-size: 25pt;
+                    margin-right: 120px;
+                    margin-bottom: 20px;
+                }
+                ul {
+                    width: 1024px;
+                    height: 145px;
+                    li {
+                        width: 172px;
+                        height: 65px;
+                        margin-right: 20px;
+                        &:first-child {
+                            margin-right: 142px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer {
+        width: 100%;
+        height: 194px;
+        margin-top: 20px;
+        .center {
+            width: 1024px;
+            height: 194px;
+            margin: 0 auto;
+            ul {
+                width: 1024px;
+                height: 194px;
+                .footer1 {
+                    width: 428px;
+                    height: 128px;
+                    border-left: 1px solid #F8F8FA;
+                    margin-top: 33px;
+                    .box1 {
+                        margin: 20px 20px 0 0;
+                        .icon {
+                            width: 52px;
+                            height: 52px;
+                        }
+                        p {
+                            width: 316px;
+                            margin-left: 20px;
+                            font-size: 10pt;
+                        }
+                    }
+                }
+                .footer2 {
+                    width: 297px;
+                    height: 128px;
+                    border-left: 1px solid #F8F8FA;
+                    margin-top: 33px;
+                    p {
+                        margin-right: 10px;
+                        font-size: 10pt;
+                    }
+                }
+                .footer3 {
+                    width: 296px;
+                    height: 128px;
+                    margin-top: 33px;
+                    p {
+                        margin: 10px 10px;
+                        font-size: 10pt;
+                    }
+                    img {
+                        width: 93px;
+                        height: 29px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:996px) {
+    header {
+        width: 100%;
+        height: 80px;
+        border-bottom: 1px solid #d8d6d6;
+        .center {
+            width: 800px;
+            height: 80px;
+            margin: 0px auto;
+            .top_bar_menu {
+                width: 800px;
+                height: 79px;
+                .menu {
+                    width: 300px;
+                    height: 40px;
+                    margin: 20px 0;
+                    padding-right: 5px;
+                    ul {
+                        .menuu {
+                            font-size: 8pt;
+                            margin-right: 12px;
+                            padding: 5px 0;
+                            &:hover h2 {
+                                border-bottom: 1px solid $darkPink;
+                            }
+                        }
+                    }
+                    .up_in {
+                        .up {
+                            font-size: 8pt;
+                            margin: 5px 30px 0 0;
+                            border: 1px solid $darkPink;
+                            h2 {
+                                font-size: 10pt;
+                                padding: 5px;
+                            }
+                        }
+                    }
+                }
+                .search_box {
+                    width: 302px;
+                    height: 40px;
+                    margin: 20px 0;
+                    form {
+                        width: 250px;
+                        height: 30px;
+                        border: 1px solid #707070;
+                        #search {
+                            width: 208px;
+                            height: 30px;
+                            padding-right: 10px;
+                            &::placeholder {
+                                font-size: 10pt;
+                            }
+                        }
+                        label {
+                            width: 31px;
+                            height: 30px;
+                            border-right: 1px solid #707070;
+                        }
+                    }
+                }
+                .logo_box {
+                    width: 160px;
+                    height: 79px;
+                    margin: 20px 10px;
+                    padding-left: 5px;
+                    .icon {
+                        width: 32px;
+                        height: 39px;
+                        margin-right: 5px;
+                    }
+                    .re {
+                        font-size: 19pt;
+                    }
+                    .make {
+                        font-size: 19pt;
+                    }
+                }
+            }
+        }
+    }
+    .slider {
+        width: 100%;
+        height: 500px;
+        .center {
+            width: 800px;
+            height: 500px;
+            margin: 0px auto;
+            .slider1 {
+                width: 800px;
+                height: 500px;
+                .text {
+                    margin: 50px 0 0 80px;
+                    width: 400px;
+                    height: 350px;
+                    h2 {
+                        width: 360px;
+                        height: 53px;
+                        border-bottom: 3px solid $darkPink;
+                        font-size: 22pt;
+                    }
+                    p {
+                        width: 360px;
+                        min-height: 100px;
+                        margin-top: 20px;
+                        font-size: 16pt;
+                    }
+                    .buy {
+                        font-size: 16pt;
+                        padding: 0 5px 0 0;
+                        width: 130px;
+                        height: 40px;
+                        margin: 90px 0 0 60px;
+                        h3 {
+                            margin-top: 5px;
+                            font-size: 14pt;
+                        }
+                    }
+                    .more {
+                        font-size: 13pt;
+                        margin: 93px 0 0 60px;
+                    }
+                }
+                .item {
+                    margin: 470px 441px 0 0;
+                    ul {
+                        width: 102px;
+                        height: 22px;
+                        li {
+                            width: 20px;
+                            height: 20px;
+                            margin-right: 20px;
+                            a {
+                                width: 20px;
+                                height: 20px;
+                                border: 1px solid #545454;
+                            }
+                            &:first-child {
+                                margin-right: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .product {
+        width: 100%;
+        height: 726px;
+        .center {
+            width: 800px;
+            height: 726px;
+            margin: 0 auto;
+            .product_box {
+                width: 800px;
+                height: 726px;
+                margin-top: 20px;
+                .header_product {
+                    width: 700px;
+                    height: 54px;
+                    margin: 0px 50px 0 50px;
+                    .right {
+                        height: 54px;
+                        .icon {
+                            width: 43px;
+                            height: 43px;
+                            margin: 4px 10px 0 0;
+                        }
+                        .text {
+                            h2 {
+                                font-size: 11pt;
+                            }
+                            h3 {
+                                font-size: 11pt;
+                            }
+                        }
+                    }
+                    span {
+                        margin: 13px 30px;
+                    }
+                }
+                .product1 {
+                    width: 700px;
+                    height: 672px;
+                    margin: 20px 50px 0 50px;
+                    ul {
+                        width: 700px;
+                        height: 592px;
+                        li {
+                            float: right;
+                            width: 180px;
+                            height: 260px;
+                            margin: 10px 100px 0 0;
+                            &:first-child {
+                                margin-right: 102px;
+                            }
+                            .img {
+                                width: 150px;
+                                height: 150px;
+                                margin: 15px;
+                                &:hover .hover_box {
+                                    width: 150px;
+                                    height: 150px;
+                                    top: 0;
+                                    right: 0;
+                                }
+                                .hover_box {
+                                    width: 0;
+                                    height: 0;
+                                    top: 75px;
+                                    right: 75px;
+                                    .childIcon {
+                                        width: 20px;
+                                        height: 20px;
+                                        margin: 65px 0px 0 0;
+                                        .more {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                        .buy {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                        .like {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                        i {
+                                            margin-right: 10px;
+                                            &:first-child {
+                                                margin-right: 0;
+                                            }
+                                        }
+                                    }
+                                    .childIcon1 {
+                                        margin-right: 40px;
+                                    }
+                                }
+                            }
+                            .text {
+                                font-size: 8pt;
+                            }
+                            p {
+                                width: 150px;
+                                .price {
+                                    font-size: 12pt;
+                                }
+                                .disprice {
+                                    font-size: 9pt;
+                                }
+                            }
+                            .add {
+                                width: 80px;
+                                height: 20px;
+                                margin: 0 15px;
+                                font-size: 10pt;
+                            }
+                            .like {
+                                .icon {
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .pr {
+        width: 100%;
+        height: 410px;
+        .center {
+            width: 800px;
+            height: 410px;
+            margin: 0 auto;
+            .pr_box {
+                width: 800px;
+                height: 410px;
+                margin-top: 20px;
+                .header_pr {
+                    width: 700px;
+                    height: 54px;
+                    margin: 0px 50px 0 50px;
+                    .right {
+                        height: 54px;
+                        .icon {
+                            width: 47px;
+                            height: 47px;
+                            margin: 4px 20px 0 0;
+                        }
+                        .text {
+                            margin: 5px 10px 0 0;
+                            h2 {
+                                font-size: 11pt;
+                            }
+                            h3 {
+                                font-size: 11pt;
+                            }
+                        }
+                    }
+                    span {
+                        margin: 13px 30px;
+                    }
+                }
+                .slider {
+                    width: 700px;
+                    height: 356px;
+                    margin: 0px 50px 0 50px;
+                    .next {
+                        width: 30px;
+                        height: 80px;
+                        top: 138px;
+                        right: 10px;
+                        .icon {
+                            width: 14px;
+                            height: 23px;
+                            margin: 28.5px 8px;
+                        }
+                    }
+                    .prev {
+                        width: 30px;
+                        height: 80px;
+                        top: 138px;
+                        left: 10px;
+                        .icon {
+                            width: 14px;
+                            height: 23px;
+                            margin: 28.5px 8px;
+                        }
+                    }
+                    ul {
+                        width: 700px;
+                        height: 356px;
+                        margin-top: 20px;
+                        li {
+                            width: 170px;
+                            height: 290px;
+                            margin: 10px 6px 0 0;
+                            &:first-child {
+                                margin-right: 2px;
+                            }
+                            .img {
+                                width: 140px;
+                                height: 195px;
+                                margin: 15px;
+                                &:hover .hover_box {
+                                    top: 0;
+                                    right: 0;
+                                }
+                                .hover_box {
+                                    width: 140px;
+                                    height: 195px;
+                                    top: 195px;
+                                    right: 150px;
+                                    .childIcon {
+                                        width: 20px;
+                                        height: 20px;
+                                        margin: 87px 0px 0 0;
+                                        .more {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                        .buy {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                        .like {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                        i {
+                                            margin-right: 10px;
+                                            &:first-child {
+                                                margin-right: 0;
+                                            }
+                                        }
+                                    }
+                                    .childIcon1 {
+                                        margin-right: 40px;
+                                    }
+                                }
+                            }
+                            .text {
+                                font-size: 7pt;
+                            }
+                            .more {
+                                width: 30px;
+                                height: 30px;
+                                margin-right: 60px;
+                                .icon {
+                                    width: 30px;
+                                    height: 30px;
+                                }
+                            }
+                            .likee {
+                                width: 20px;
+                                height: 20px;
+                                margin-top: 5px;
+                                .icon {
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .support {
+        width: 100%;
+        height: 260px;
+        margin-top: 20px;
+        .center {
+            width: 800px;
+            height: 260px;
+            margin: 0 auto;
+            .support_box {
+                width: 800px;
+                height: 207px;
+                margin-top: 20px;
+                ul {
+                    width: 800px;
+                    height: 207px;
+                    li {
+                        width: 200px;
+                        height: 197px;
+                        margin-right: 50px;
+                        &:first-child {
+                            margin-right: 50px;
+                        }
+                        .delivery {
+                            width: 79px;
+                            height: 79px;
+                            margin: 5px 20px 0 0;
+                        }
+                        .supportIcon {
+                            width: 78px;
+                            height: 78px;
+                            margin: 5px 20px 0 0;
+                        }
+                        .credit {
+                            width: 71px;
+                            height: 71px;
+                            margin: 5px 20px 0 0;
+                        }
+                        h2 {
+                            font-size: 12pt;
+                        }
+                        h3 {
+                            margin-top: 10px;
+                            font-size: 11pt;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .brand {
+        width: 100%;
+        height: 246px;
+        margin-top: 20px;
+        .center {
+            width: 800px;
+            height: 246px;
+            margin: 0 auto;
+            .brand_box {
+                width: 800px;
+                height: 145px;
+                margin-top: 20px;
+                h2 {
+                    font-size: 25pt;
+                    margin-right: 50px;
+                    margin-bottom: 20px;
+                }
+                ul {
+                    width: 800px;
+                    height: 145px;
+                    li {
+                        width: 172px;
+                        height: 65px;
+                        margin-right: 24px;
+                        &:first-child {
+                            margin-right: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer {
+        width: 100%;
+        height: 194px;
+        margin-top: 20px;
+        .center {
+            width: 800px;
+            height: 194px;
+            margin: 0 auto;
+            ul {
+                width: 800px;
+                height: 194px;
+                .footer1 {
+                    width: 400px;
+                    height: 128px;
+                    border-left: 1px solid #F8F8FA;
+                    margin-top: 33px;
+                    .box1 {
+                        margin: 20px 20px 0 0;
+                        .icon {
+                            width: 52px;
+                            height: 52px;
+                        }
+                        p {
+                            width: 290px;
+                            margin-left: 20px;
+                            font-size: 10pt;
+                        }
+                    }
+                }
+                .footer2 {
+                    width: 199px;
+                    height: 128px;
+                    border-left: 1px solid #F8F8FA;
+                    margin-top: 33px;
+                    p {
+                        margin-right: 10px;
+                        font-size: 10pt;
+                    }
+                }
+                .footer3 {
+                    width: 199px;
+                    height: 128px;
+                    margin-top: 33px;
+                    p {
+                        margin: 10px 5px;
+                        font-size: 10pt;
+                    }
+                    img {
+                        width: 93px;
+                        height: 29px;
+                        margin-right: 5px;
+                        float: right;
+                    }
+                }
+            }
+        }
+    }
+}
